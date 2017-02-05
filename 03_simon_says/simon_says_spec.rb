@@ -34,6 +34,7 @@ describe "Simon says" do
     end
   end
 
+
   describe "repeat" do
     it "should repeat" do
       expect(repeat("hello")).to eq("hello hello")
